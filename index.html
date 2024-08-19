@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Índice de Massa Corporal</h1>
+    </header>
+    <main>
+        <div class="formulario">
+            <form>
+                <div class="formulario__dados">
+                    <label for="peso">
+                        <p>Peso (kg): </p>
+                        <input type="number" name="peso" id="peso" placeholder="65.0" min="25" max="300" required>
+                    </label>
+                    <label for="altura">
+                        <p>Altura (m): </p>
+                        <input type="number" name="altura" id="altura" placeholder="1.60" step="0.1" min="1.00" max="3.00" required>
+                    </label>
+                </div>
+            </form>
+            <button type="submit" onclick="calcular(peso, altura)">Calcular</button>
+        </div>
+        <div class="resultado"></div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Karla Daiane</p>
+        <p>Téc. Desenvolvimento de Sistemas - PROZ</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
