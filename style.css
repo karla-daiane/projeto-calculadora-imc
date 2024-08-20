@@ -24,7 +24,7 @@ body {
 
 header {
     width: 100%;
-    padding: 1% 0%;
+    padding: 2% 0% 1% 0%;
     text-align: center;
     font-family: "Lora", serif;
     font-size: 1.2rem;
@@ -124,7 +124,7 @@ footer{
     }
 
     .exibir {
-        width: 50vh;
+        width: 40vh;
         margin: 15%;
     }
 }
